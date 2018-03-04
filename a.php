@@ -3,7 +3,7 @@
 if(isset($_GET['url'])){
 $h = "QqWwEeRrTtYyUuIiOoPpAaSsDdFfGgHhJjKkLlZzXxCcVvBbNnMm1234567890";
 $rand = substr(str_shuffle($h), 0, 5);
-$site = "http://something.com/";
+$site = "https://sushkevichvp.000webhostapp.com/";
 $url = $_GET['url'];
 
 $result = "<a href='$site$rand' target='_blank'>$site$rand</a>";
